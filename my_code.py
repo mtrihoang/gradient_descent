@@ -84,7 +84,7 @@ if __name__ == "__main__":
     def function_example(x):
         return np.sin(x) + np.cos(x / 2)
 
-    plot_example(np.linspace(-12, 12, 1000), function_example, 1, 0.5, 0.9, 0, 0.15)
+    plot_example(np.linspace(-12, 12, 1000), function_example, 1, 0.9, 0.9, 0, 0.15)
     plot_example(np.linspace(-12, 12, 1000), function_example, 1, 0.5, 0.1, 0, 0.15)
 
     GD_example = GD_sim(function_example, 5, 0.9, 0.1, 0)
