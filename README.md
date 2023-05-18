@@ -7,5 +7,5 @@ The below figures illustrate the speed of convergence to local/global optimum as
 with objective function `sin(x) + cos(x/2)` and different values of learning rate and
 decay factor.
 
-![GD_with_momentum_1](../GD_with_momentum_1.gif)
-![GD_with_momentum_2](../GD_with_momentum_2.gif)
+![GD_with_momentum_1](./GD_with_momentum_1.gif)
+![GD_with_momentum_2](./GD_with_momentum_2.gif)
