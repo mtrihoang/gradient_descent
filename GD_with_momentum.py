@@ -35,7 +35,7 @@ class GD_sim:
 
 
 def plot_example(x, func, theta, gamma, eta, v, time):
-    """ "The function is to create a dynamic graph to show
+    """The function is to create a dynamic graph to show
     the convergence to a local optimum.
         Args:
         func (function): The objective function.
