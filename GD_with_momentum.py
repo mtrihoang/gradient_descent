@@ -39,11 +39,11 @@ def plot_example(x, func, theta, gamma, eta, v, time):
     the convergence to a local optimum.
         Args:
         func (function): The objective function.
-        theta: The initial point or the first guess of local optimum.
-        gamma: The decay factor.
-        eta: The learning rate.
-        v: The momentum.
-        time: The animation duration of the .gif file.
+        theta (float): The initial point or the first guess of local optimum.
+        gamma (float): The decay factor.
+        eta (float): The learning rate.
+        v (float): The momentum.
+        time (float): The animation duration of the .gif file.
 
     Returns:
     -------
