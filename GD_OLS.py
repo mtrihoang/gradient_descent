@@ -84,7 +84,8 @@ def plot_example(results, mse, c_num, time):
             [results[i][0], results[i + 1][0]], [results[i][1], results[i + 1][1]], "b"
         )
         ax.set_title(
-            f"Iteration: {i+1}, theta1 = {results[i][0].round(3)}, theta2 = {results[i][1].round(3)}"
+            f"Iteration: {i+1}, theta1 = {results[i][0].round(3)}, \
+                theta2 = {results[i][1].round(3)}"
         )
         ax.set_xlabel("theta1")
         ax.set_ylabel("theta2")
