@@ -77,7 +77,6 @@ def plot_example(results, mse, c_num, time):
     ax.plot(results[-1][0], results[-1][1], "o:r", markersize=7)
 
     for i in range(len(results) - 1):
-
         ax.plot(results[i][0], results[i][1], "o:b", markersize=5)
         ax.plot(results[i + 1][0], results[i + 1][1], "o:b", markersize=5)
         ax.plot(
